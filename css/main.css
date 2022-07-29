@@ -1,0 +1,166 @@
+/*********************************** BASE STYLES *****************************/
+body {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*********************************** GRID ***********************************/
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 398px;
+}
+
+/********************************** HEADER **********************************/
+header h1 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 23px;
+  padding: 20px 10px;
+  text-transform: uppercase;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 20px 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #77a466;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header .full-width {
+  border-bottom: 4px solid #77a466;
+}
+
+/********************************* TOP SECTION *****************************/
+#vegg-image {
+  clear: both;
+  border-bottom: 4px solid #77a466;
+}
+
+#top h2 {
+  clear: both;
+  color: #77a466;
+  padding-left: 5px;
+  text-transform: uppercase;
+}
+
+#top p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 25px;
+  padding-left: 5px;
+  padding-right: 25px;
+}
+
+/******************************** BOTTOM SECTION ***************************/
+
+#specials, #reviews, #contact {
+  color: #000000;
+  border-top: 2px solid #dedbdc;
+  padding-top: 10px;
+
+}
+
+#specials, #reviews {
+  border-right: 2px solid #dedbdc;
+}
+
+#specials h3, #reviews h3, #contact h3 {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+/********************************* SPECIALS *******************************/
+
+#specials ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 60px;
+}
+
+#specials li {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+/****************************** REVIEWS ************************************/
+
+#reviews h3 {
+  padding-left: 25px;
+}
+
+#reviews p {
+  font-size: 16px;
+  line-height: 21px;
+  padding-left: 25px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+/***************************** CONTACT ************************************/
+
+#contact h3 {
+  padding-left: 25px;
+}
+
+#contact p {
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 25px;
+  padding-right: 30px;
+  padding-bottom: 64px;
+}
+
+/******************************** FOOTER ***********************************/
+#footer .full-width {
+  border-top: 2px solid #dedbdc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#footer h2 {
+  clear: both;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#footer h2 span {
+  color: #a4c299;
+  font-family: 'Galada', cursive;
+  text-transform: lowercase;
+}
